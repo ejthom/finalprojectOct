@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Qahiri&display=swap');
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+
+.column {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    float: left;
+    
+}
+
+h1 {
+    font-family: 'Qahiri', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
